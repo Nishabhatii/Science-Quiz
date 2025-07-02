@@ -1,5 +1,5 @@
 ## 🔭Science Quiz App
-A responsive web-based science quiz built using **HTML,CSS ans javascript**. Designed to test and improve science knowledge interactively,
+A responsive web-based science quiz built using **HTML,CSS ans javaScript**. Designed to test and improve science knowledge interactively,
 featuring multiple choice questions and score tracking.
 ---
 ## 🚀Features 
@@ -8,7 +8,11 @@ featuring multiple choice questions and score tracking.
 -Clean and responsive UI.
 -Timer for each question.
 ---
-##🛠 Tech Stack
+## 🛠Tech Stack
 - **HTML**
 - **CSS**
 - **JavaScript**
+----
+## 🧨Live Demo
+https://nishabhatii.github.io/Science-Quiz/
+[click here to view the live quiz]
