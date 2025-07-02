@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+   
+    <div id="start-box">
+      <label for="userName">Enter your name:</label>
+      <input type="text" id="userName" placeholder="Your Name"/>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div id="quiz-box" style="display: none;">
+      <div id="question">Question text</div>
+      <ul id="options">
+        <!-- Options will go here -->
+      </ul>
+      <div class="bottom-bar">
+        <span id="timer">Time left: 15s</span>
+        <button onclick="submitAnswer()">Submit</button>
+      </div>
+    </div>
+
+    <div id="result-box" style="display: none;">
+      <h2>Quiz Completed!</h2>
+      <p>Your Score: <span id="score"></span> / <span id="total"></span></p>
+      <p>Name <span id="displayName"></span></p>
+      <button onclick="restartQuiz()">Restart</button>
+    </div>
+  </div>
+
+  <!-- Audio effects -->
+  <audio id="correctSound" src="https://assets.mixkit.co/sfx/preview/mixkit-correct-answer-tone-2870.mp3"></audio>
+  <audio id="wrongSound" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-buzzer-2964.mp3"></audio>
+  <audio id="timeoutSound" src="https://assets.mixkit.co/sfx/preview/mixkit-time-is-up-942.mp3"></audio>
+  <audio id="clickSound" src="https://assets.mixkit.co/sfx/preview/mixkit-select-click-1109.mp3"></audio>
+
+  <script src="index.js"></script>
+</body>
+</html>
