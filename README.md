@@ -9,7 +9,7 @@ featuring multiple choice questions and score tracking.
 -Timer for each question.
 ---
 ## 🛠Tech Stack
-- **HTML
+- **HTML**
 - **CSS**
 - **JavaScript**
 ----
