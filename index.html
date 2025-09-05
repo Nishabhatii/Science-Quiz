@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="quiz-container">
+
+   
+    <h1>Quiz App</h1>
+   
+   
+    <div id="start-box">
+      <label for="userName">Enter Your Name:</label>
+      <input type="text" id="userName" placeholder="Your Name"/>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+   
+    <div id="quiz-box" style="display: none;">
+     
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+
+     
+      <div id="question">Question text</div>
+
+   
+      <ul id="options">
+     
+      </ul>
+
+      <!-- Timer + Submit -->
+      <div class="bottom-bar">
+        <span id="timer">Time left: 15s</span>
+        <button onclick="submitAnswer()">Submit</button>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-box" class="result-container" style="display: none;">
+      <h2>Quiz Completed!</h2>
+      <p>Well done, <span id="displayName"></span> 🎉</p>
+      <p class="result-score">Score: <span id="score"></span> / <span id="total"></span></p>
+      <button class="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
