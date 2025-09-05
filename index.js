@@ -33,7 +33,6 @@ let timeLeft = 15;
 let timer;
 let answered = false;
 
-// Shuffle helper
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -116,7 +115,7 @@ function showResult() {
   document.getElementById("total").textContent = quizData.length;
   document.getElementById("displayName").textContent = userName;
 
-  // ✅ Progress bar full
+
   document.getElementById("progress-bar").style.width = "100%";
 }
 
