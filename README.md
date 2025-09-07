@@ -7,7 +7,7 @@ featuring multiple choice questions and score tracking.
 -Real time score question.
 -Clean and responsive UI.
 -Timer for each question.
----
+----
 ## 🛠Tech Stack
 - **HTML**
 - **CSS**
