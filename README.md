@@ -9,7 +9,7 @@ featuring multiple choice questions and score tracking.
 -Timer for each question.
 -Random Question's Sequence.
 
-----
+---
 ## 🛠Tech Stack
 - **HTML**
 - **CSS**
