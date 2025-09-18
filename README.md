@@ -2,7 +2,7 @@
 A responsive web-based science quiz built using **HTML, CSS and javaScript**. Designed to test and improve science knowledge interactively,
 featuring multiple choice questions and score tracking.
 ----
-## 🚀Features 
+### 🚀Features 
 -Multiple-choice science questions.
 -Real time score question.
 -Clean and responsive UI.
@@ -10,7 +10,7 @@ featuring multiple choice questions and score tracking.
 -Random Question's Sequence.
 
 ----
-## 🛠Tech Stack
+### 🛠Tech Stack
 - **HTML**
 - **CSS**
 - **JavaScript**
