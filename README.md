@@ -15,6 +15,6 @@ featuring multiple choice questions and score tracking.
 - **CSS**
 - **JavaScript**
 ----
-## 🧨Live Demo
+### 🧨Live Demo
 (https://nishabhatii.github.io/Science-Quiz/)
 [click here to view the live quiz]
