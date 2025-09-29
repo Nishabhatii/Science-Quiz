@@ -10,7 +10,7 @@ featuring multiple choice questions and score tracking.
 -Random Question's Sequence.
 
 ----
-## 🛠Tech Stack
+### 🛠Tech Stack
 - **HTML**
 - **CSS**
 - **JavaScript**
